@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.nosiphus.cbrpfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ChiselsPackHandlerRedirectMixin"
+  ],
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
