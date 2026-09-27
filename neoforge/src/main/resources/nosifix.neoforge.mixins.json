@@ -1,19 +1,18 @@
 {
   "required": true,
+  "minVersion": "0.8",
   "package": "com.nosiphus.nosifix.mixin",
   "compatibilityLevel": "JAVA_21",
-  "client": [
-    "chiselsandbits.AddPackFindersEventHandlerMixin"
-  ],
   "mixins": [
     "wthit.EnergyCapabilityProviderMixin",
     "wthit.FluidCapabilityProviderMixin",
     "wthit.ItemCapabilityProviderMixin"
   ],
+  "client": [
+    "chiselsandbits.AddPackFindersEventHandlerMixin"
+  ],
+  "server": [],
   "injectors": {
     "defaultRequire": 1
-  },
-  "overwrites": {
-    "requireAnnotations": true
   }
 }
