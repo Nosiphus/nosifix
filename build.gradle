@@ -120,7 +120,15 @@ configurations {
 }
 
 dependencies {
-    implementation "curse.maven:chisels-bits-231095:7405270"
+    compileOnly "curse.maven:badpackets-615134:6067146"
+    compileOnly "curse.maven:chisels-bits-231095:7405270"
+    compileOnly "curse.maven:wthit-forge-455982:7804383"
+
+    runtimeOnly "curse.maven:badpackets-615134:6067146"
+    runtimeOnly "curse.maven:chisels-bits-231095:7405270"
+    runtimeOnly "curse.maven:nosiphus-furniture-mod-593876:8869207"
+    runtimeOnly "curse.maven:yogmod-372408:8613131"
+    runtimeOnly "curse.maven:wthit-forge-455982:7804383"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

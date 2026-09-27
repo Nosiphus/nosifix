@@ -1,4 +1,4 @@
-package com.nosiphus.cbrpfix;
+package com.nosiphus.nosifix;
 
 import org.slf4j.Logger;
 
@@ -8,11 +8,11 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.ModContainer;
 
-@Mod(CBRPFix.MODID)
-public class CBRPFix {
-    public static final String MODID = "cbrpfix";
+@Mod(NosiFix.MODID)
+public class NosiFix {
+    public static final String MODID = "nosifix";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public CBRPFix(IEventBus modEventBus, ModContainer modContainer) {
+    public NosiFix(IEventBus modEventBus, ModContainer modContainer) {
     }
 }

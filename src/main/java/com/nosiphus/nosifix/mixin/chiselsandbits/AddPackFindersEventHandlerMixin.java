@@ -1,14 +1,15 @@
-package com.nosiphus.cbrpfix.mixin;
+package com.nosiphus.nosifix.mixin.chiselsandbits;
 
-import mod.chiselsandbits.forge.handler.AddPackFindersEventHandler;
 import net.minecraft.server.packs.PackSelectionConfig;
 import net.minecraft.server.packs.repository.Pack;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Pseudo;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
-@Mixin(value = AddPackFindersEventHandler.class, remap = false)
-public abstract class ChiselsPackHandlerRedirectMixin {
+@Pseudo
+@Mixin(targets = "mod.chiselsandbits.forge.handler.AddPackFindersEventHandler", remap = false)
+public abstract class AddPackFindersEventHandlerMixin {
 
     @Redirect(
             method = "lambda$onAddPackFinders$0",

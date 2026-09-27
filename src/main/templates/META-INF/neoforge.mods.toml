@@ -31,7 +31,7 @@ authors="Nosiphus"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Unpins Chisels & Bits resource pack from top, allowing custom textures to be loaded.
+NosiFix adds a random assortment of fixes for other mods that have not been updated by their authors.
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
